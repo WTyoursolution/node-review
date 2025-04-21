@@ -1,6 +1,7 @@
 {
   "name": "review",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/WTyoursolution/node-review/issues"
   },
-  "homepage": "https://github.com/WTyoursolution/node-review#readme"
+  "homepage": "https://github.com/WTyoursolution/node-review#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "lodash": "^4.17.21"
+  }
 }
